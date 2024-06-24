@@ -1,6 +1,6 @@
 import React from "react";
 
-class ImageContent extends React.Component {
+class imageComponent extends React.Component {
   
     render(){  console.log("imageprops",this.props)
         return(
@@ -10,4 +10,4 @@ class ImageContent extends React.Component {
         )
     }
 }
-export default ImageContent;
+export default imageComponent;
