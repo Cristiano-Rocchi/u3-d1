@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ImageContent imgLink={image}></ImageContent>
+        <ImageContent imgLink={image} textInfo="graffiti" style={{width:"250px"}}></ImageContent>
         <ButtonComponent id="buttonName" buttonText="click me" />
         
       </header>
